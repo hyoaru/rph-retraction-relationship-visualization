@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "key": "A",
+      "category": "a",
+      "label": "Jose Rizal's Retraction",
+      "x": 0.0,
+      "y": 0.0,
+      "details": {
+        "title": "Jose Rizal's Retraction",
+        "content": "Rizal's retraction is interpreted in various ways. Some view it as a betrayal of his revolutionary ideals, while others suggest it was a strategic decision aimed at achieving peace for his family and countrymen. However, we in Group 3 align with the view that Rizal's retraction can be seen as a nuanced decision, reflecting both a personal journey and a response to the prevailing conditions in the Philippines.",
+        "supporting_image_url": "https://pepealas.wordpress.com/wp-content/uploads/2019/12/nstp-2.jpg?w=640"
+      }
+    },
+    {
+      "key": "B. Historical Context",
+      "category": "b",
+      "label": "Historical Context",
+      "x": -2.0,
+      "y": 1.5,
+      "details": {
+        "title": "Historical Context",
+        "content": "Discusses the socio-political background of the Philippines during Rizal's time and how it influenced his decisions.",
+        "supporting_image_url": "https://picsum.photos/1000/1000"
+      }
+    },
+    {
+      "key": "B. Key Figures",
+      "category": "b",
+      "label": "Key Figures",
+      "x": 2.0,
+      "y": -1.5,
+      "details": {
+        "title": "Key Figures",
+        "content": "Includes important individuals like Rizal, his family, and political associates who were involved in his retraction.",
+        "supporting_image_url": "https://mgctopinio.wordpress.com/wp-content/uploads/2019/10/rizal_confession.jpg?w=357"
+      }
+    },
+    {
+      "key": "B. Key Evidences",
+      "category": "b",
+      "label": "Key Evidences",
+      "x": -2.0,
+      "y": -1.5,
+      "details": {
+        "title": "Key Evidences",
+        "content": "Includes important evidences about how Jose Rizal retracted.",
+        "supporting_image_url": "https://pepealas.wordpress.com/wp-content/uploads/2019/12/nstp-2.jpg?w=640"
+      }
+    },
+    {
+      "key": "C. Document of Retraction",
+      "category": "c",
+      "label": "Document of Retraction",
+      "x": -3.0,
+      "y": -2.5,
+      "details": {
+        "title": "Document of Retraction",
+        "content": "Rizal stated that he had opposed and fought the use of his name as a war-cry by some who were in arms. He believed the scheme was absurd and would cause great suffering.",
+        "supporting_image_url": "https://pepealas.wordpress.com/wp-content/uploads/2019/12/nstp-2.jpg?w=640"
+      }
+    },
+    {
+      "key": "C. Jose Rizal",
+      "category": "c",
+      "label": "Jose Rizal",
+      "x": 1.0,
+      "y": -3.5,
+      "details": {
+        "title": "Jose Rizal",
+        "content": "José Protasio Rizal Mercado y Alonso Realonda was a Filipino nationalist, writer and polymath active at the end of the Spanish colonial period of the Philippines. He is considered a national hero of the Philippines.",
+        "supporting_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiz3JuPgd0P9px7k65BxzkNwSfu2ZoRJ_TjA&s"
+      }
+    },
+    {
+      "key": "C. Fr. Vicente Balaguer",
+      "category": "c",
+      "label": "Fr. Vicente Balaguer",
+      "x": 2.5,
+      "y": -3.5,
+      "details": {
+        "title": "Fr. Vicente Balaguer",
+        "content": "Fr. Vicente Balaguer He is a Jesuit priest who claimed that he conveyed to convince Rizal to denounce Masonry and return to Catholic fold.",
+        "supporting_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Victor_Balaguer.jpg"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "EA",
+      "category": "a",
+      "source": "A",
+      "target": "B. Historical Context"
+    },
+    {
+      "id": "EA",
+      "category": "a",
+      "source": "A",
+      "target": "B. Key Figures"
+    },
+    {
+      "id": "EB",
+      "category": "b",
+      "source": "B. Key Figures",
+      "target": "C. Jose Rizal"
+    },
+    {
+      "id": "EB",
+      "category": "b",
+      "source": "B. Key Figures",
+      "target": "C. Fr. Vicente Balaguer"
+    },
+    {
+      "id": "EA",
+      "category": "a",
+      "source": "A",
+      "target": "B. Key Evidences"
+    },
+    {
+      "id": "EB",
+      "category": "b",
+      "source": "B. Key Evidences",
+      "target": "C. Document of Retraction"
+    }
+  ]
+}
