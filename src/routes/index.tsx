@@ -16,6 +16,7 @@ function RouteComponent() {
     { name: "Blancaflor Fredrick", programLevel: "BSIT 1" },
     { name: "Rafael Miguel Catipon", programLevel: "BSIT 1" },
     { name: "Rosselon Miñas", programLevel: "BSIT 1" },
+    { name: "Lucky Abanica", programLevel: "BSIT 1" },
   ];
   return (
     <>
