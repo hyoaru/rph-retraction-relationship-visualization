@@ -8,6 +8,7 @@ export default function createRouter() {
     routeTree,
     defaultPreload: "intent",
     defaultPreloadStaleTime: 0,
+    basepath: "/rph-retraction-relationship-visualization/",
     context: {
       queryClient: undefined!,
       authState: undefined!,
