@@ -34,7 +34,7 @@ function RouteComponent() {
           <p className="font-semibold">Assigned topic: Retraction Letter</p>
           <div className="flex flex-col gap-1">
             <p className="font-semibold">Task Background</p>
-            <ul className="text-sm list-disc ms-8">
+            <ul className="text-sm list-disc ms-4 md:ms-8">
               <li>
                 Following your attendance at the sponsored activity, choose
                 primary sources discussed during the event, such as articles,
@@ -59,7 +59,7 @@ function RouteComponent() {
           </div>
           <div className="flex flex-col gap-1">
             <p className="font-semibold">Group 3 Members</p>
-            <ul className="text-sm list-disc ms-8">
+            <ul className="text-sm list-disc ms-4 md:ms-8">
               {members.map((member) => (
                 <li key={`Member-${member.name}`}>
                   {member.name}, {member.programLevel}
