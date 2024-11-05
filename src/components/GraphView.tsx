@@ -5,6 +5,7 @@ import { Node } from "@/types/core";
 import data from "@/data.json";
 import { useThemeContext } from "@/context/ThemeContext";
 import { Info } from "lucide-react";
+import { DetailCard } from "./ui/DetailCard";
 
 export default function GraphView() {
   const { theme } = useThemeContext();
@@ -103,23 +104,27 @@ export default function GraphView() {
         </div>
       </div>
       {selectedNode && (
-        <div
-          className="absolute right-0 z-[5] w-3/12 h-6/12 p-6 bottom-0"
-          tabIndex={-1}
-        >
-          <div className="bg-background border h-full w-full rounded-xl p-6 flex flex-col gap-6 shadow-xl">
-            <div className="flex flex-col gap-1" id="selected-node-header">
-              <p className="text-base font-bold">
-                {selectedNode?.details?.title}
-              </p>
-              <p className="text-sm">{selectedNode?.details?.content}</p>
-            </div>
-            <img
-              src={selectedNode?.details?.supporting_image_url}
-              className="w-full object-cover rounded-xl"
-            />
+        <>
+          <div
+            className="absolute right-6 z-[5] w-3/12 bottom-6"
+            tabIndex={-1}
+          >
+            <DetailCard className="max-h-[600px]">
+              <DetailCard.Body>
+                <DetailCard.Title>
+                  {selectedNode?.details?.title}
+                </DetailCard.Title>
+                <DetailCard.Content>
+                  {selectedNode?.details?.content}
+                </DetailCard.Content>
+              </DetailCard.Body>
+              <DetailCard.Image
+                src={selectedNode?.details?.supporting_image_url}
+              />
+            </DetailCard>
+            <div className="absolute w-full bottom-0 bg-gradient-to-t from-black/50 dark:from-main-accent/50 to-transparent h-1/3 rounded-xl pointer-events-none" />
           </div>
-        </div>
+        </>
       )}
 
       <div ref={graphRef} className="w-full h-full" />

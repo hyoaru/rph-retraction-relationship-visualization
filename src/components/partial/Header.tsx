@@ -30,7 +30,7 @@ export default function Header() {
         <div id="header-en" className="ms-auto flex items-center gap-2">
           <Button
             variant={"secondary-main-accent"}
-            className="hidden sm:flex"
+            className="flex"
             size={"icon"}
             onClick={onThemeToggle}
           >

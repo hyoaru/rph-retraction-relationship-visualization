@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 export default function Footer() {
   return (
     <footer className="pb-6 backdrop-blur-sm">
-      <BaseContainer className="flex flex-col items-center text-sm md:flex-row">
+      <BaseContainer className="flex flex-row items-center justify-between text-sm">
         <div className="flex items-center gap-2 font-custom font-medium uppercase">
           <p className="">
             <span className="font-sans font-bold">©</span>
