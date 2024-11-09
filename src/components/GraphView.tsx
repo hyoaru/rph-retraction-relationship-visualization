@@ -40,9 +40,9 @@ export default function GraphView() {
       baseNode: "gray",
     },
     nodeSize: {
-      a: 65,
-      b: 45,
-      c: 30,
+      a: 45,
+      b: 30,
+      c: 20,
     },
     edgeSize: {
       a: 5,

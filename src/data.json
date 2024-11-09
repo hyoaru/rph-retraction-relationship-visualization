@@ -16,8 +16,8 @@
       "key": "B. Historical Context",
       "category": "b",
       "label": "Historical Context",
-      "x": -2.0,
-      "y": 1.5,
+      "x": -6,
+      "y": 4,
       "details": {
         "title": "Historical Context",
         "content": "Discusses the socio-political background of the Philippines during Rizal's time and how it influenced his decisions.",
@@ -25,23 +25,11 @@
       }
     },
     {
-      "key": "B. Key Figures",
-      "category": "b",
-      "label": "Key Figures",
-      "x": 2.0,
-      "y": -1.5,
-      "details": {
-        "title": "Key Figures",
-        "content": "Includes important individuals like Rizal, his family, and political associates who were involved in his retraction.",
-        "supporting_image_url": "https://mgctopinio.wordpress.com/wp-content/uploads/2019/10/rizal_confession.jpg?w=357"
-      }
-    },
-    {
       "key": "B. Key Evidences",
       "category": "b",
       "label": "Key Evidences",
-      "x": -2.0,
-      "y": -1.5,
+      "x": -6.0,
+      "y": -4.0,
       "details": {
         "title": "Key Evidences",
         "content": "Includes important evidences about how Jose Rizal retracted.",
@@ -52,8 +40,8 @@
       "key": "C. Document of Retraction",
       "category": "c",
       "label": "Document of Retraction",
-      "x": -3.0,
-      "y": -2.5,
+      "x": -5.0,
+      "y": -9.5,
       "details": {
         "title": "Document of Retraction",
         "content": "Rizal stated that he had opposed and fought the use of his name as a war-cry by some who were in arms. He believed the scheme was absurd and would cause great suffering.",
@@ -61,13 +49,109 @@
       }
     },
     {
-      "key": "C. Jose Rizal",
-      "category": "c",
-      "label": "Jose Rizal",
-      "x": 1.0,
-      "y": -3.5,
+      "key": "B. Key Resources",
+      "category": "b",
+      "label": "Key Resources",
+      "x": 6.0,
+      "y": 4.0,
       "details": {
-        "title": "Jose Rizal",
+        "title": "Key Resources",
+        "content": "Includes important resources who were involved in his retraction.",
+        "supporting_image_url": "https://mgctopinio.wordpress.com/wp-content/uploads/2019/10/rizal_confession.jpg?w=357"
+      }
+    },
+    {
+      "key": "C. Jesuit's Version",
+      "category": "c",
+      "label": "Jesuit's Version",
+      "x": 6.0,
+      "y": 9.5,
+      "details": {
+        "title": "Jesuit's Version",
+        "content": "Includes important resources who were involved in his retraction.",
+        "supporting_image_url": "https://mgctopinio.wordpress.com/wp-content/uploads/2019/10/rizal_confession.jpg?w=357"
+      }
+    },
+    {
+      "key": "C. Cuerpo De Vigilancia",
+      "category": "c",
+      "label": "Cuerpo De Vigilancia",
+      "x": 12.0,
+      "y": 2.5,
+      "details": {
+        "title": "Cuerpo De Vigilancia",
+        "content": "Includes important resources who were involved in his retraction.",
+        "supporting_image_url": "https://mgctopinio.wordpress.com/wp-content/uploads/2019/10/rizal_confession.jpg?w=357"
+      }
+    },
+    {
+      "key": "B. Key Figures",
+      "category": "b",
+      "label": "Key Figures",
+      "x": 6,
+      "y": -4,
+      "details": {
+        "title": "Key Figures",
+        "content": "Includes important individuals like Rizal, his family, and political associates who were involved in his retraction.",
+        "supporting_image_url": "https://mgctopinio.wordpress.com/wp-content/uploads/2019/10/rizal_confession.jpg?w=357"
+      }
+    },
+    {
+      "key": "C. Federico Moreno",
+      "category": "c",
+      "label": "Federico Moreno",
+      "x": 12.0,
+      "y": -2.5,
+      "details": {
+        "title": "Federico Moreno",
+        "content": "José Protasio Rizal Mercado y Alonso Realonda was a Filipino nationalist, writer and polymath active at the end of the Spanish colonial period of the Philippines. He is considered a national hero of the Philippines.",
+        "supporting_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiz3JuPgd0P9px7k65BxzkNwSfu2ZoRJ_TjA&s"
+      }
+    },
+    {
+      "key": "C. Archbishop Bernadino Nozaleda",
+      "category": "c",
+      "label": "Archbishop Bernadino Nozaleda",
+      "x": 12.0,
+      "y": -4.5,
+      "details": {
+        "title": "Archbishop Bernadino Nozaleda",
+        "content": "José Protasio Rizal Mercado y Alonso Realonda was a Filipino nationalist, writer and polymath active at the end of the Spanish colonial period of the Philippines. He is considered a national hero of the Philippines.",
+        "supporting_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiz3JuPgd0P9px7k65BxzkNwSfu2ZoRJ_TjA&s"
+      }
+    },
+    {
+      "key": "C. Estanislao March",
+      "category": "c",
+      "label": "Estanislao March",
+      "x": 10.0,
+      "y": -4.5,
+      "details": {
+        "title": "Estanislao March",
+        "content": "José Protasio Rizal Mercado y Alonso Realonda was a Filipino nationalist, writer and polymath active at the end of the Spanish colonial period of the Philippines. He is considered a national hero of the Philippines.",
+        "supporting_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiz3JuPgd0P9px7k65BxzkNwSfu2ZoRJ_TjA&s"
+      }
+    },
+    {
+      "key": "C. Josephine Bracken",
+      "category": "c",
+      "label": "Josephine Bracken",
+      "x": 12.0,
+      "y": -6.5,
+      "details": {
+        "title": "Josephine Bracken",
+        "content": "José Protasio Rizal Mercado y Alonso Realonda was a Filipino nationalist, writer and polymath active at the end of the Spanish colonial period of the Philippines. He is considered a national hero of the Philippines.",
+        "supporting_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiz3JuPgd0P9px7k65BxzkNwSfu2ZoRJ_TjA&s"
+      }
+    },
+    {
+      "key": "C. Fr. Pio Pi",
+      "category": "c",
+      "label": "Fr. Pio Pi",
+      "x": 12.0,
+      "y": -8.5,
+      "details": {
+        "title": "Fr. Pio Pi",
         "content": "José Protasio Rizal Mercado y Alonso Realonda was a Filipino nationalist, writer and polymath active at the end of the Spanish colonial period of the Philippines. He is considered a national hero of the Philippines.",
         "supporting_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiz3JuPgd0P9px7k65BxzkNwSfu2ZoRJ_TjA&s"
       }
@@ -76,11 +160,47 @@
       "key": "C. Fr. Vicente Balaguer",
       "category": "c",
       "label": "Fr. Vicente Balaguer",
-      "x": 2.5,
-      "y": -3.5,
+      "x": 5.0,
+      "y": -9.5,
       "details": {
         "title": "Fr. Vicente Balaguer",
         "content": "Fr. Vicente Balaguer He is a Jesuit priest who claimed that he conveyed to convince Rizal to denounce Masonry and return to Catholic fold.",
+        "supporting_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Victor_Balaguer.jpg"
+      }
+    },
+    {
+      "key": "C. Jose Rizal",
+      "category": "c",
+      "label": "Jose Rizal",
+      "x": 7.5,
+      "y": -9.5,
+      "details": {
+        "title": "Jose Rizal",
+        "content": "Jose Rizal He is a Jesuit priest who claimed that he conveyed to convince Rizal to denounce Masonry and return to Catholic fold.",
+        "supporting_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Victor_Balaguer.jpg"
+      }
+    },
+    {
+      "key": "C. Fr. Jose Vilaclara",
+      "category": "c",
+      "label": "Fr. Jose Vilaclara",
+      "x": 7.5,
+      "y": -7.5,
+      "details": {
+        "title": "Fr. Jose Vilaclara",
+        "content": "Fr. Jose Vilaclara He is a Jesuit priest who claimed that he conveyed to convince Rizal to denounce Masonry and return to Catholic fold.",
+        "supporting_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Victor_Balaguer.jpg"
+      }
+    },
+    {
+      "key": "C. Rufino Collantes",
+      "category": "c",
+      "label": "Rufino Collantes",
+      "x": 9.5,
+      "y": -9.5,
+      "details": {
+        "title": "Rufino Collantes",
+        "content": "Rufino Collantes He is a Jesuit priest who claimed that he conveyed to convince Rizal to denounce Masonry and return to Catholic fold.",
         "supporting_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Victor_Balaguer.jpg"
       }
     }
@@ -99,22 +219,40 @@
       "target": "B. Key Figures"
     },
     {
+      "id": "EA",
+      "category": "a",
+      "source": "A",
+      "target": "B. Key Evidences"
+    },
+    {
+      "id": "EA",
+      "category": "a",
+      "source": "A",
+      "target": "B. Key Resources"
+    },
+    {
+      "id": "EB",
+      "category": "b",
+      "source": "B. Key Resources",
+      "target": "C. Jesuit's Version"
+    },
+    {
+      "id": "EB",
+      "category": "b",
+      "source": "B. Key Resources",
+      "target": "C. Cuerpo De Vigilancia"
+    },
+    {
       "id": "EB",
       "category": "b",
       "source": "B. Key Figures",
-      "target": "C. Jose Rizal"
+      "target": "C. Federico Moreno"
     },
     {
       "id": "EB",
       "category": "b",
       "source": "B. Key Figures",
       "target": "C. Fr. Vicente Balaguer"
-    },
-    {
-      "id": "EA",
-      "category": "a",
-      "source": "A",
-      "target": "B. Key Evidences"
     },
     {
       "id": "EB",
