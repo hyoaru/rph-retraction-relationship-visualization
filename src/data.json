@@ -25,6 +25,90 @@
       }
     },
     {
+      "key": "C. Religious Power and Influence of the Catholic Church",
+      "category": "c",
+      "label": "Religious Power and Influence of the Catholic Church",
+      "x": -5,
+      "y": 9.5,
+      "details": {
+        "title": "Religious Power and Influence of the Catholic Church",
+        "content": "Discusses the socio-political background of the Philippines during Rizal's time and how it influenced his decisions.",
+        "supporting_image_url": "https://picsum.photos/1000/1000"
+      }
+    },
+    {
+      "key": "C. Masonry",
+      "category": "c",
+      "label": "Masonry",
+      "x": -7.5,
+      "y": 9.5,
+      "details": {
+        "title": "Masonry",
+        "content": "Discusses the socio-political background of the Philippines during Rizal's time and how it influenced his decisions.",
+        "supporting_image_url": "https://picsum.photos/1000/1000"
+      }
+    },
+    {
+      "key": "C. Emergence of Filipino Nationalism",
+      "category": "c",
+      "label": "Emergence of Filipino Nationalism",
+      "x": -10,
+      "y": 9.5,
+      "details": {
+        "title": "Emergence of Filipino Nationalism",
+        "content": "Discusses the socio-political background of the Philippines during Rizal's time and how it influenced his decisions.",
+        "supporting_image_url": "https://picsum.photos/1000/1000"
+      }
+    },
+    {
+      "key": "C. Colonial Oppression by Spain",
+      "category": "c",
+      "label": "Colonial Oppression by Spain",
+      "x": -12,
+      "y": 2.5,
+      "details": {
+        "title": "Colonial Oppression by Spain",
+        "content": "Discusses the socio-political background of the Philippines during Rizal's time and how it influenced his decisions.",
+        "supporting_image_url": "https://picsum.photos/1000/1000"
+      }
+    },
+    {
+      "key": "C. Outbreak of Philippine Revolution",
+      "category": "c",
+      "label": "Outbreak of Philippine Revolution",
+      "x": -12,
+      "y": 4.5,
+      "details": {
+        "title": "Outbreak of Philippine Revolution",
+        "content": "Discusses the socio-political background of the Philippines during Rizal's time and how it influenced his decisions.",
+        "supporting_image_url": "https://picsum.photos/1000/1000"
+      }
+    },
+    {
+      "key": "C. Rizal's Arrest and Trial",
+      "category": "c",
+      "label": "Rizal's Arrest and Trial",
+      "x": -12,
+      "y": 8.5,
+      "details": {
+        "title": "Rizal's Arrest and Trial",
+        "content": "Discusses the socio-political background of the Philippines during Rizal's time and how it influenced his decisions.",
+        "supporting_image_url": "https://picsum.photos/1000/1000"
+      }
+    },
+    {
+      "key": "C. Jesuit Influence on Rizal",
+      "category": "c",
+      "label": "Jesuit Influence on Rizal",
+      "x": -12,
+      "y": 6.5,
+      "details": {
+        "title": "Jesuit Influence on Rizal",
+        "content": "Discusses the socio-political background of the Philippines during Rizal's time and how it influenced his decisions.",
+        "supporting_image_url": "https://picsum.photos/1000/1000"
+      }
+    },
+    {
       "key": "B. Key Evidences",
       "category": "b",
       "label": "Key Evidences",
@@ -44,6 +128,80 @@
       "y": -9.5,
       "details": {
         "title": "Document of Retraction",
+        "content": "Rizal stated that he had opposed and fought the use of his name as a war-cry by some who were in arms. He believed the scheme was absurd and would cause great suffering.",
+        "supporting_image_url": "https://pepealas.wordpress.com/wp-content/uploads/2019/12/nstp-2.jpg?w=640"
+      }
+    },
+    {
+      "key": "C. Publication and Official Reports",
+      "category": "c",
+      "label": "Publication and Official Reports",
+      "x": -7.5,
+      "y": -9.5,
+      "details": {
+        "title": "Publication and Official Reports",
+        "content": "Rizal stated that he had opposed and fought the use of his name as a war-cry by some who were in arms. He believed the scheme was absurd and would cause great suffering.",
+        "supporting_image_url": "https://pepealas.wordpress.com/wp-content/uploads/2019/12/nstp-2.jpg?w=640"
+      }
+    },
+    {
+      "key": "C. Fr. Balaguer's Memoirs",
+      "category": "c",
+      "label": "Fr. Balaguer's Memoirs",
+      "x": -10,
+      "y": -9.5,
+      "details": {
+        "title": "Fr. Balaguer's Memoirs",
+        "content": "Rizal stated that he had opposed and fought the use of his name as a war-cry by some who were in arms. He believed the scheme was absurd and would cause great suffering.",
+        "supporting_image_url": "https://pepealas.wordpress.com/wp-content/uploads/2019/12/nstp-2.jpg?w=640"
+      }
+    },
+    {
+      "key": "C. Mi Último Adiós’s Lack of Explicit Retraction",
+      "category": "c",
+      "label": "Mi Último Adiós’s Lack of Explicit Retraction",
+      "x": -12,
+      "y": -8.5,
+      "details": {
+        "title": "Mi Último Adiós’s Lack of Explicit Retraction",
+        "content": "Rizal stated that he had opposed and fought the use of his name as a war-cry by some who were in arms. He believed the scheme was absurd and would cause great suffering.",
+        "supporting_image_url": "https://pepealas.wordpress.com/wp-content/uploads/2019/12/nstp-2.jpg?w=640"
+      }
+    },
+    {
+      "key": "C. In Articulo Mortis Marriage",
+      "category": "c",
+      "label": "In Articulo Mortis Marriage",
+      "x": -12.0,
+      "y": -2.5,
+      "details": {
+        "title": "In Articulo Mortis Marriage",
+        "content": "Rizal stated that he had opposed and fought the use of his name as a war-cry by some who were in arms. He believed the scheme was absurd and would cause great suffering.",
+        "supporting_image_url": "https://pepealas.wordpress.com/wp-content/uploads/2019/12/nstp-2.jpg?w=640"
+      }
+    },
+
+    {
+      "key": "C. Confession and Communion",
+      "category": "c",
+      "label": "Confession and Communion",
+      "x": -12.0,
+      "y": -4.5,
+      "details": {
+        "title": "Confession and Communion",
+        "content": "Rizal stated that he had opposed and fought the use of his name as a war-cry by some who were in arms. He believed the scheme was absurd and would cause great suffering.",
+        "supporting_image_url": "https://pepealas.wordpress.com/wp-content/uploads/2019/12/nstp-2.jpg?w=640"
+      }
+    },
+
+    {
+      "key": "C. Acts of Faith, Hope, and Charity",
+      "category": "c",
+      "label": "Acts of Faith, Hope, and Charity",
+      "x": -12.0,
+      "y": -6.5,
+      "details": {
+        "title": "Acts of Faith, Hope, and Charity",
         "content": "Rizal stated that he had opposed and fought the use of his name as a war-cry by some who were in arms. He believed the scheme was absurd and would cause great suffering.",
         "supporting_image_url": "https://pepealas.wordpress.com/wp-content/uploads/2019/12/nstp-2.jpg?w=640"
       }
@@ -133,6 +291,18 @@
       }
     },
     {
+      "key": "C. Manuel Gracia",
+      "category": "c",
+      "label": "Manuel Gracia",
+      "x": 9.5,
+      "y": -6.5,
+      "details": {
+        "title": "Manuel Gracia",
+        "content": "José Protasio Rizal Mercado y Alonso Realonda was a Filipino nationalist, writer and polymath active at the end of the Spanish colonial period of the Philippines. He is considered a national hero of the Philippines.",
+        "supporting_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiz3JuPgd0P9px7k65BxzkNwSfu2ZoRJ_TjA&s"
+      }
+    },
+    {
       "key": "C. Josephine Bracken",
       "category": "c",
       "label": "Josephine Bracken",
@@ -148,7 +318,7 @@
       "key": "C. Fr. Pio Pi",
       "category": "c",
       "label": "Fr. Pio Pi",
-      "x": 12.0,
+      "x": 11.5,
       "y": -8.5,
       "details": {
         "title": "Fr. Pio Pi",
