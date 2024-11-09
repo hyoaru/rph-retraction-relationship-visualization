@@ -8,6 +8,7 @@ import { Info } from "lucide-react";
 import { DetailCard } from "@/components/ui/DetailCard";
 import { Sheet, SheetContent } from "@/components/ui/sheet";
 import useBreakpoint from "use-breakpoint";
+import forceAtlas2 from "graphology-layout-forceatlas2"
 
 export default function GraphView() {
   const { theme } = useThemeContext();
@@ -36,7 +37,7 @@ export default function GraphView() {
     color: {
       a: "#FF1744",
       b: "#FF6D00",
-      c: "black",
+      c: "#8c6238",
       baseNode: "gray",
     },
     nodeSize: {
@@ -80,13 +81,15 @@ export default function GraphView() {
       });
     });
 
+    forceAtlas2.assign(graph, 2)
+
     const sigmaInstance = new Sigma(graph, graphRef.current, {
       allowInvalidContainer: true,
       labelColor: {
         color: graphConfig.node.label.color,
       },
-      labelSize: graphConfig.node.label.size,
-      labelWeight: "bold",
+      // labelSize: graphConfig.node.label.size,
+      // labelWeight: "bold",  
     });
 
     sigmaInstance.on("clickNode", (event) => {
