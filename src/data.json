@@ -472,11 +472,60 @@
       "target": "C. Federico Moreno"
     },
     {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Cuerpo De Vigilancia",
+      "target": "C. Federico Moreno"
+    },
+    {
       "id": "EB",
       "category": "b",
       "source": "B. Key Figures",
       "target": "C. Fr. Vicente Balaguer"
     },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Jesuit's Version",
+      "target": "C. Fr. Vicente Balaguer"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Jesuit's Version",
+      "target": "C. Fr. Estanislao March"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Jesuit's Version",
+      "target": "C. Archbishop Bernadino Nozaleda"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Jesuit's Version",
+      "target": "C. Fr. Jose Vilaclara"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Jesuit's Version",
+      "target": "C. Fr. Pio Pi"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Cuerpo De Vigilancia",
+      "target": "C. Fr. Vicente Balaguer"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Jesuit's Version",
+      "target": "C. Josephine Bracken"
+    },
+
     {
       "id": "EB",
       "category": "b",
@@ -538,6 +587,12 @@
       "target": "C. In Articulo Mortis Marriage"
     },
     {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Jesuit's Version",
+      "target": "C. In Articulo Mortis Marriage"
+    },
+    {
       "id": "EB",
       "category": "b",
       "source": "B. Key Evidences",
@@ -560,6 +615,42 @@
       "category": "b",
       "source": "B. Key Evidences",
       "target": "C. Fr. Balaguer's Memoirs"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Jesuit's Version",
+      "target": "C. Fr. Balaguer's Memoirs"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Cuerpo De Vigilancia",
+      "target": "C. Fr. Balaguer's Memoirs"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Cuerpo De Vigilancia",
+      "target": "C. Confession and Communion"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Cuerpo De Vigilancia",
+      "target": "C. Acts of Faith, Hope, and Charity"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Cuerpo De Vigilancia",
+      "target": "C. Document of Retraction"
+    },
+    {
+      "id": "EC",
+      "category": "c",
+      "source": "C. Jesuit's Version",
+      "target": "C. Document of Retraction"
     },
     {
       "id": "EB",

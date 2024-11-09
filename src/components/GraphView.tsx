@@ -9,6 +9,7 @@ import { DetailCard } from "@/components/ui/DetailCard";
 import { Sheet, SheetContent } from "@/components/ui/sheet";
 import useBreakpoint from "use-breakpoint";
 import forceAtlas2 from "graphology-layout-forceatlas2"
+import EdgeCurveProgram from "@sigma/edge-curve";
 
 export default function GraphView() {
   const { theme } = useThemeContext();
@@ -83,10 +84,14 @@ export default function GraphView() {
       });
     });
 
-    forceAtlas2.assign(graph, 2)
+    forceAtlas2.assign(graph, 20)
 
     const sigmaInstance = new Sigma(graph, graphRef.current, {
       allowInvalidContainer: true,
+      defaultEdgeType: "curve",
+      edgeProgramClasses: {
+        curve: EdgeCurveProgram,
+      },
       labelColor: {
         color: graphConfig.node.label.color,
       },
