@@ -59,6 +59,7 @@ export default function GraphView() {
 
     data.nodes.forEach((node) => {
       graph.addNode(node.key, {
+        category: node.category,
         label: node.label,
         x: node.x,
         y: node.y,
@@ -73,6 +74,7 @@ export default function GraphView() {
 
     data.edges.forEach((edge) => {
       graph.addEdge(edge.source, edge.target, {
+        category: edge.category,
         size: customConfig.edgeSize[
           edge.category as keyof typeof customConfig.edgeSize
         ],
@@ -97,6 +99,43 @@ export default function GraphView() {
       const nodeData = graph.getNodeAttributes(nodeId);
       setSelectedNode(nodeData as Node);
       setIsNodeDetailsSheetOpen(true);
+    });
+
+    sigmaInstance.on("enterNode", (event) => {
+      const nodeId = event.node;
+      const connectedNodes = graph.neighbors(nodeId)
+      const connectedEdges = graph.edges(nodeId)
+
+      const color = theme === 'light' ? 'black' : 'white'
+
+      graph.setNodeAttribute(nodeId, "color", color)
+
+      connectedNodes.forEach((node) => {
+        graph.setNodeAttribute(node, "color", color)
+      })
+
+      connectedEdges.forEach((edge) => {
+        graph.setEdgeAttribute(edge, "color", color)
+      })
+    });
+
+    sigmaInstance.on("leaveNode", (event) => {
+      const nodeId = event.node;
+      const connectedNodes = graph.neighbors(nodeId)
+      const connectedEdges = graph.edges(nodeId)
+
+      const nodeAttributes = graph.getNodeAttributes(nodeId)
+      graph.setNodeAttribute(nodeId, "color", customConfig.color[nodeAttributes['category'] as keyof typeof customConfig.color])
+
+      connectedNodes.forEach((node) => {
+        const connectedNodeAttributes = graph.getNodeAttributes(node)
+        graph.setNodeAttribute(node, "color", customConfig.color[connectedNodeAttributes['category'] as keyof typeof customConfig.color])
+      })
+
+      connectedEdges.forEach((edge) => {
+        const connectedEdgeAttributes = graph.getEdgeAttributes(edge)
+        graph.setEdgeAttribute(edge, "color", customConfig.color[connectedEdgeAttributes['category'] as keyof typeof customConfig.color])
+      })
     });
 
     sigmaInstance.on("clickStage", () => {
