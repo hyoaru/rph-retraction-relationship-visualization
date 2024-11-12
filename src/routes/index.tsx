@@ -41,6 +41,9 @@ function RouteComponent() {
           <p className="text-3xl font-bold">
             Jose Rizal's Retraction Relationship Visualization
           </p>
+          <div className="mt-2">
+            <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fhyoaru.github.io%2Frph-retraction-relationship-visualization%2F&label=VISITORS&labelColor=%23000000&countColor=%23eeeeee&style=flat-square&labelStyle=upper" alt="" />
+          </div>
         </div>
 
         <div className="flex flex-col gap-2">
