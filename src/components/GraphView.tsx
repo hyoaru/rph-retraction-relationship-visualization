@@ -156,9 +156,9 @@ export default function GraphView() {
     <>
       <div className="relative w-full bg-grid border rounded-xl overflow-hidden">
         <div className="absolute left-0 p-4 top-0 z-[5]" tabIndex={-1}>
-          <div className="bg-background rounded-lg p-3 border border-main-accent shadow flex items-center gap-4 text-main-accent">
+          <div className="bg-main-accent/5 rounded-lg p-3 border border-main-accent flex items-center gap-4 text-main-accent">
             <Info className="" size={18} />
-            <p className="bg-background text-xs ">
+            <p className="bg-background text-xs dark:text-foreground ">
               {"Click on a node to see details"}
             </p>
           </div>

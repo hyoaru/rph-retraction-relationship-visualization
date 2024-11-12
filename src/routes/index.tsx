@@ -1,5 +1,7 @@
 import GraphView from "@/components/GraphView";
 import { createFileRoute } from "@tanstack/react-router";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Info } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   component: RouteComponent,
@@ -23,10 +25,19 @@ function RouteComponent() {
   return (
     <>
       <div className="flex flex-col gap-8">
+        <Alert className="border-main-accent bg-main-accent/5 lg:hidden">
+          <div className="flex text-main-accent gap-4">
+            <Info className="" size={30} />
+            <div className="flex flex-col">
+              <AlertTitle className="font-semibold text-sm">Best viewed on wider screens!</AlertTitle>
+              <AlertDescription className="text-foreground text-xs">
+                Please do have this viewed on a laptop or desktop instead
+              </AlertDescription>
+            </div>
+          </div>
+        </Alert>
         <div className="flex flex-col gap-1">
-          <p className="text-sm">
-            Readings in Philippine History
-          </p>
+          <p className="text-sm">Readings in Philippine History</p>
           <p className="text-3xl font-bold">
             Jose Rizal's Retraction Relationship Visualization
           </p>
@@ -69,7 +80,9 @@ function RouteComponent() {
               ))}
             </ul>
           </div>
-          <p className="font-semibold">Course Professor: Prof. John Cliford Alvero</p>
+          <p className="font-semibold">
+            Course Professor: Dr. John Cliford Alvero
+          </p>
         </div>
         <div className="h-[800px]">
           <GraphView />
